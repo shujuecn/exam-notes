@@ -704,7 +704,7 @@
 3. 投诉信
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8o6lmjfj30jn0dcmy4.jpg" alt="image-20221109222145294" style="zoom:67%;" />
 4. 推荐信
-   *  <img src="../Library/Application%20Support/typora-user-images/image-20221109222321040.png" alt="image-20221109222321040" style="zoom:67%;" />
+   *  <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z9vpdl69j30k80a60tr.jpg" alt="image-20221109230335141" style="zoom:67%;" />
 5. 邀请信
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8rf8o48j30nq0bbaaw.jpg" alt="image-20221109222451704" style="zoom:67%;" />
 6. 道歉信
