@@ -716,7 +716,30 @@
 9. 答复信
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8w47eomj30mn0bddgz.jpg" alt="image-20221109222922928" style="zoom:67%;" />
 
+---
 
+## 真题练习
 
+---
 
+### 2017（英语一）
 
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zs90j0ggj30iw07vt9e.jpg" alt="image-20221110093909917" style="zoom:67%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsakqsfoj30nk0c8dhn.jpg" alt="image-20221110094039379" style="zoom:80%;" /> 
+
+---
+
+### 2017（英语二）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zscyf6s2j30mf06qjs3.jpg" alt="image-20221110094257074" style="zoom:80%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zshjdg86j30lk0cxq4l.jpg" alt="image-20221110094720910" style="zoom:80%;" />
+
+### 2016（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsidjfdej30ju08kaat.jpg" alt="image-20221110094809223" style="zoom:80%;" />
+2. 范文
