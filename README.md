@@ -6,7 +6,10 @@
 
 ---
 
-![image-20221106221840934](https://tva1.sinaimg.cn/large/008vxvgGgy1h7vrq4bf6aj30iq045aad.jpg)
+1. 图画
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7vrq4bf6aj30iq045aad.jpg" alt="image-20221106221840934" style="zoom:100%;" />
+2. 图表
+   * ![image-20221110164103213](https://tva1.sinaimg.cn/large/008vxvgGgy1h804fzmnb5j30jt040t91.jpg)
 
 ---
 
@@ -385,7 +388,7 @@
 2. 建议措施
    1.  媒体：宣传 / 报道 / 揭露
       * 报纸和新闻媒体应该宣传报道它
-        * Newspaper and news medla should be planned to **launch propagandas of** it.
+        * Newspaper and news media should be planned to **launch propagandas of** it.
       * 报纸和新闻媒体应该揭露和阻止它
         * Newspaper and news media should be planned to **feveal and prevent** it.
    2. 政府：制定法律 / 采取措施
@@ -696,6 +699,8 @@
 
 ## 模板组合示例
 
+---
+
 1. 建议信
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8mgufvzj30l30bl3zc.jpg" alt="image-20221109222004418" style="zoom:67%;" />
 2. 感谢信
@@ -718,14 +723,55 @@
 
 ---
 
-## 真题练习
+# 真题练习
+
+---
+
+## 大作文
+
+---
+
+### 2010（英语一）
+
+1. 题目
+   * ![image-20221107211548413](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e4fbh3pj307e06adfw.jpg)
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e0bj5h2j30g405vt9e.jpg" alt="image-20221110221158742" style="zoom:85%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e1ru3voj30gr084q40.jpg" alt="image-20221110221322647" style="zoom:83%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e3btqnqj30gy08emxx.jpg" alt="image-20221110221451754" style="zoom:83%;" />
+
+---
+
+### 2022（英语一）
+
+1. 题目
+   * ![image-20221110221650797](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e5dyc6ij308p070glt.jpg)
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e65i3rqj30h006ht9d.jpg" alt="image-20221110221735343" style="zoom:86%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e6xbr9xj30gm0ak3zo.jpg" alt="image-20221110221819219" style="zoom:88%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e7p6f7yj30hb08f0tg.jpg" alt="image-20221110221904787" style="zoom:85%;" />
 
 ---
 
 ### 2017（英语一）
 
 1. 题目
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zs90j0ggj30iw07vt9e.jpg" alt="image-20221110093909917" style="zoom:67%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80d79arr6j30eg07uaaj.jpg" alt="image-20221110214400237" style="zoom:85%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dv2ed6hj30jb060ab5.jpg" alt="image-20221110220655051" style="zoom:75%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dw6yljzj30im07amya.jpg" alt="image-20221110220800312" style="zoom:77%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dy7zmhtj30hf050t99.jpg" alt="image-20221110220957166" style="zoom:82%;" />
+
+---
+
+## 小作文
+
+---
+
+### 2017（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zs90j0ggj30iw07vt9e.jpg" alt="image-20221110093909917" style="zoom:85%;" />
 2. 范文
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsakqsfoj30nk0c8dhn.jpg" alt="image-20221110094039379" style="zoom:80%;" /> 
 
@@ -743,3 +789,6 @@
 1. 题目
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsidjfdej30ju08kaat.jpg" alt="image-20221110094809223" style="zoom:80%;" />
 2. 范文
+
+---
+
