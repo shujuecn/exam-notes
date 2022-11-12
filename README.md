@@ -1,8 +1,8 @@
-# 总论
+# 0 总论
 
 ---
 
-## 宏观结构
+## 0.1 宏观结构
 
 ---
 
@@ -13,17 +13,17 @@
 
 ---
 
-## 细节设计
+## 0.2 细节设计
 
 ---
 
-### 主题词
+### 0.2.1 主题词
 
 1. 动词：doing
 2. 名词：n.
 3. 形容词：being adj.
 
-### 插入语 + 静态化设计
+### 0.2.2 插入语 + 静态化设计
 
 1. 引例
 
@@ -57,7 +57,7 @@
 
 ---
 
-###  It 做形式主语包装
+### 0.2.3 It 做形式主语包装
 
 1. 语料
    * It is generally recognized that…    人们普遍认为
@@ -82,7 +82,7 @@
 
 ---
 
-### 假传圣旨（就地取材）
+### 0.2.4 假传圣旨（就地取材）
 
 1. 模板
    * As 人名, 职务&单位, puts it, "观点句".
@@ -92,7 +92,7 @@
 
 ---
 
-### 无病呻吟
+### 0.2.5 无病呻吟
 
 1. no + 核心名词
    * If…**isn’t**…, …can’t…  –>  If **no…is**…, …can’t…
@@ -110,7 +110,7 @@
 
 ---
 
-### 非灵主语(inanimate subject)/物称主语
+### 0.2.6 非灵主语(inanimate subject)/物称主语
 
 * The reports **came into** London Zoo.
 
@@ -130,7 +130,7 @@
 
 ---
 
-### 调查
+### 0.2.7 调查
 
 * A recent Internet questionnaire of **the relevant department** indicates that
   approximately 83.2% of the respondents hold the same view.
@@ -147,15 +147,15 @@
 
 ---
 
-# 大作文
+# 1 图画
 
 ---
 
-## 图画
+## 1.1 图画理论
 
 ---
 
-### 第一段：描述图画
+### 1.1.1 第一段：描述图画
 
 ---
 
@@ -197,48 +197,38 @@
 
          * 正如这幅**可笑的**图画所栩栩如生地**揭示的**那样
 
-           * 描绘    portrayed
-
-             描绘    described
-
-
-             揭示    revealed / disclose
-
-             揭示    shown
-
-             说明    illustrated
-
+           * 描绘    portrayed / described
+           * 揭示    revealed / disclose / shown
+           * 说明    illustrated
+   
            * 可笑的    ridiculous
-
-             有趣的    interesting 
-
-             搞笑的    funny
-
-             发人深思的    thought-provoking
-
-             夺人眼球的    eye-catching
-
-           * 图画    picture / cartoon
-             / photo
-             / drawing
-             graph
-
+   
+           * 有趣的    interesting 
+   
+           * 搞笑的    funny
+   
+           * 发人深思的    thought-provoking
+   
+           * 夺人眼球的    eye-catching
+   
+           * 图画    picture / cartoon / photo / drawing / graph
+   
       2. 宾语从句法
          * The ridiculous picture vividly portrays **that**...
-
+   
       3. 形式主语
-
+   
          * **It is** vividly portrayed in the ridiculous pictures **that**…
-
+   
       4. 两幅图片连词
-
+   
          * adv.类似地    similarly, likewise
-
+   
          * adv.而且; 此外    furthermore, moreover
-
+   
          * 转折    however, by contrast, unfortunately, yet
 
-   ---
+---
 
 2. 描述图画
 
@@ -369,7 +359,7 @@
 
 ---
 
-### 第二段：重申主题
+### 1.1.2 第二段：重申主题
 
 1. 分析影响
 2. 第一条影响 + 调查
@@ -377,7 +367,7 @@
 
 ---
 
-### 第三段：升华主题
+### 1.1.3 第三段：升华主题
 
 ---
 
@@ -412,32 +402,113 @@
       * Only in this way can we do something.
 
 ---
-
-# 小作文
-
----
-
-## 框架
+## 1.2 真题带练
 
 ---
 
-### 信函格式
+### 2010（英语一）
+
+1. 题目
+   * ![image-20221107211548413](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e4fbh3pj307e06adfw.jpg)
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e0bj5h2j30g405vt9e.jpg" alt="image-20221110221158742" style="zoom:85%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e1ru3voj30gr084q40.jpg" alt="image-20221110221322647" style="zoom:83%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e3btqnqj30gy08emxx.jpg" alt="image-20221110221451754" style="zoom:83%;" />
+
+---
+
+### 2011（英语一）
+
+1. 题目
+   * ![image-20221110221650797](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e5dyc6ij308p070glt.jpg)
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e65i3rqj30h006ht9d.jpg" alt="image-20221110221735343" style="zoom:86%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e6xbr9xj30gm0ak3zo.jpg" alt="image-20221110221819219" style="zoom:88%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e7p6f7yj30hb08f0tg.jpg" alt="image-20221110221904787" style="zoom:85%;" />
+
+---
+
+### 2012（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82bwh7g63j309207jwep.jpg" alt="image-20221112143011676" style="zoom:80%;" />
+2. 范文
+   * 
+
+---
+
+### 2013（英语一）
+
+1. 题目
+   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111171714478.png" alt="image-20221111171714478" style="zoom:70%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bkbh2ltj30lh085ta3.jpg" alt="image-20221111173258565" style="zoom:77%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bku1egdj30oz0bndhf.jpg" alt="image-20221111173328406" style="zoom:67%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bmzfu45j30kw0aidgy.jpg" alt="image-20221111173532097" style="zoom:80%;" />
+
+---
+
+### 2014（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81az0uszej309y07qaac.jpg" alt="image-20221111171230467" style="zoom:80%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b01s8x2j30mu09kdhm.jpg" alt="image-20221111171330098" style="zoom:70%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b0mex1lj30qc0c3q51.jpg" alt="image-20221111171402713" style="zoom:62%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b1s6k43j30o006r0ts.jpg" alt="image-20221111171509148" style="zoom:67%;" />
+
+---
+
+### 2015 （英语一）
+
+1. 题目
+   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111163550630.png" alt="image-20221111163550630" style="zoom:67%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a2d8kouj30ms08375l.jpg" alt="image-20221111164107099" style="zoom:72%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a7bg559j30n80dzdi0.jpg" alt="image-20221111164551716" style="zoom:71%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a9xpzcsj30om086ab6.jpg" alt="image-20221111164823632" style="zoom:67%;" />
+
+---
+
+### 2016（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80iuethv9j30dh0613yw.jpg" alt="image-20221107204103975" style="zoom:90%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sj2bpjj30mo08awfv.jpg" alt="image-20221111163139833" style="zoom:72%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sut7m2j30p60a7gnd.jpg" alt="image-20221111163159200" style="zoom:65%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819temo0tj30oe07z3zm.jpg" alt="image-20221111163230438" style="zoom:67%;" />
+
+---
+
+### 2017（英语一）
+
+1. 题目
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80d79arr6j30eg07uaaj.jpg" alt="image-20221110214400237" style="zoom:85%;" />
+2. 范文
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dv2ed6hj30jb060ab5.jpg" alt="image-20221110220655051" style="zoom:75%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dw6yljzj30im07amya.jpg" alt="image-20221110220800312" style="zoom:77%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dy7zmhtj30hf050t99.jpg" alt="image-20221110220957166" style="zoom:82%;" />
+
+---
+
+# 2 书信
+
+---
+
+### 2.1 书信格式
 
 * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z4swfvzqj30xg0ghgn5.jpg" alt="image-20221109200751521" style="zoom: 50%;" />
 
 ---
 
-### 段落架构
+### 2.2 段落架构
 
 * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z4thh0o7j30ja09waaq.jpg" alt="image-20221109200827804" style="zoom: 67%;" />
 
 ---
 
-## 细节
-
----
-
-### 称呼
+### 2.2.1 称呼
 
 * Dear + 称呼
 
@@ -462,7 +533,7 @@
 
 ---
 
-### 第一段
+### 2.2.2 第一段
 
 ---
 
@@ -543,7 +614,7 @@
 
 ---
 
-### 第二段
+### 2.2.3 第二段
 
 ---
 
@@ -604,7 +675,7 @@
 
 ---
 
-### 第三段
+### 2.2.4 第三段
 
 ---
 
@@ -703,7 +774,7 @@
 
 ---
 
-## 模板组合示例
+## 2.3 书信模板组合示例
 
 ---
 
@@ -726,113 +797,12 @@
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8v56omzj30p40ctq42.jpg" alt="image-20221109222826803" style="zoom:67%;" />
 9. 答复信
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8w47eomj30mn0bddgz.jpg" alt="image-20221109222922928" style="zoom:67%;" />
+10. 告示
+    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82ctc7gwbj30k20ckdgl.jpg" alt="image-20221112150147941" style="zoom:67%;" />
 
 ---
 
-# 真题练习
-
----
-
-## 大作文
-
----
-
-### 2010（英语一）
-
-1. 题目
-   * ![image-20221107211548413](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e4fbh3pj307e06adfw.jpg)
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e0bj5h2j30g405vt9e.jpg" alt="image-20221110221158742" style="zoom:85%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e1ru3voj30gr084q40.jpg" alt="image-20221110221322647" style="zoom:83%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e3btqnqj30gy08emxx.jpg" alt="image-20221110221451754" style="zoom:83%;" />
-
----
-
-### 2011（英语一）
-
-1. 题目
-   * ![image-20221110221650797](https://tva1.sinaimg.cn/large/008vxvgGgy1h80e5dyc6ij308p070glt.jpg)
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e65i3rqj30h006ht9d.jpg" alt="image-20221110221735343" style="zoom:86%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e6xbr9xj30gm0ak3zo.jpg" alt="image-20221110221819219" style="zoom:88%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e7p6f7yj30hb08f0tg.jpg" alt="image-20221110221904787" style="zoom:85%;" />
-
----
-
-### 2011（英语一）
-
-1. 题目
-   * 示例
-2. 范文
-   * 
-
----
-
-### 2012（英语一）
-
-1. 题目
-   * 
-2. 范文
-   * 
-
----
-
-### 2013（英语一）
-
-1. 题目
-   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111171714478.png" alt="image-20221111171714478" style="zoom:70%;" />
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bkbh2ltj30lh085ta3.jpg" alt="image-20221111173258565" style="zoom:77%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bku1egdj30oz0bndhf.jpg" alt="image-20221111173328406" style="zoom:67%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bmzfu45j30kw0aidgy.jpg" alt="image-20221111173532097" style="zoom:80%;" />
-
----
-
-### 2014（英语一）
-
-1. 题目
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81az0uszej309y07qaac.jpg" alt="image-20221111171230467" style="zoom:80%;" />
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b01s8x2j30mu09kdhm.jpg" alt="image-20221111171330098" style="zoom:70%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b0mex1lj30qc0c3q51.jpg" alt="image-20221111171402713" style="zoom:62%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b1s6k43j30o006r0ts.jpg" alt="image-20221111171509148" style="zoom:67%;" />
-
----
-
-### 2015 （英语一）
-
-1. 题目
-   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111163550630.png" alt="image-20221111163550630" style="zoom:67%;" />
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a2d8kouj30ms08375l.jpg" alt="image-20221111164107099" style="zoom:72%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a7bg559j30n80dzdi0.jpg" alt="image-20221111164551716" style="zoom:71%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a9xpzcsj30om086ab6.jpg" alt="image-20221111164823632" style="zoom:67%;" />
-
----
-
-### 2016（英语一）
-
-1. 题目
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80iuethv9j30dh0613yw.jpg" alt="image-20221107204103975" style="zoom:90%;" />
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sj2bpjj30mo08awfv.jpg" alt="image-20221111163139833" style="zoom:72%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sut7m2j30p60a7gnd.jpg" alt="image-20221111163159200" style="zoom:65%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819temo0tj30oe07z3zm.jpg" alt="image-20221111163230438" style="zoom:67%;" />
-
----
-
-### 2017（英语一）
-
-1. 题目
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80d79arr6j30eg07uaaj.jpg" alt="image-20221110214400237" style="zoom:85%;" />
-2. 范文
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dv2ed6hj30jb060ab5.jpg" alt="image-20221110220655051" style="zoom:75%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dw6yljzj30im07amya.jpg" alt="image-20221110220800312" style="zoom:77%;" />
-   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dy7zmhtj30hf050t99.jpg" alt="image-20221110220957166" style="zoom:82%;" />
-
----
-
-## 小作文
+## 2.4 书信带练
 
 ---
 
@@ -852,12 +822,36 @@
 2. 范文
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zshjdg86j30lk0cxq4l.jpg" alt="image-20221110094720910" style="zoom:80%;" />
 
+---
+
+# 3 告示
+
+---
+
+## 3.1 告示框架
+
+---
+
+## 3.2 告示模板细节
+
+---
+
+## 3.3 告示带练
+
+---
+
 ### 2016（英语一）
 
 1. 题目
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsidjfdej30ju08kaat.jpg" alt="image-20221110094809223" style="zoom:80%;" />
 2. 范文
-3. 测试
+   *  
 
 ---
+
+# 4 备忘录
+
+---
+
+# 5 报告
 
