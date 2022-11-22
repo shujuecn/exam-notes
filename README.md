@@ -458,7 +458,7 @@
 ### 2013（英语一）
 
 1. 题目
-   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111171714478.png" alt="image-20221111171714478" style="zoom:70%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efuuyle8j30fw0e33z5.jpg" alt="image-20221123015347051" style="zoom:50%;" />
 2. 范文
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bkbh2ltj30lh085ta3.jpg" alt="image-20221111173258565" style="zoom:77%;" />
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bku1egdj30oz0bndhf.jpg" alt="image-20221111173328406" style="zoom:67%;" />
@@ -480,7 +480,7 @@
 ### 2015 （英语一）
 
 1. 题目
-   * <img src="../../Library/Application%20Support/typora-user-images/image-20221111163550630.png" alt="image-20221111163550630" style="zoom:67%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efw47jcmj30as072mxj.jpg" alt="image-20221123015503451" style="zoom:80%;" />
 2. 范文
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a2d8kouj30ms08375l.jpg" alt="image-20221111164107099" style="zoom:72%;" />
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a7bg559j30n80dzdi0.jpg" alt="image-20221111164551716" style="zoom:71%;" />
@@ -863,7 +863,7 @@
 ### 2014（英语二）询问信
 
 1. 题目
-   * <img src="../../Library/Application%20Support/typora-user-images/image-20221113002416269.png" alt="image-20221113002416269" style="zoom:80%;" />
+   * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efxab7osj30i808sdgb.jpg" alt="image-20221123015610594" style="zoom:90%;" />
 2. 范文
    * <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82tbe8awfj30p40enwg8.jpg" alt="QQ20221113-003206" style="zoom:67%;" />
 

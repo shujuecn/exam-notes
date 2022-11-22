@@ -1,0 +1,625 @@
+<!doctype html>
+<html style='font-size:19px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) { 
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) { 
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ''; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style><title>斌斌23作文笔记--林夕烧11.23</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=' first-line-indent'><h1 id='0-总论'><span>0 总论</span></h1><hr /><h2 id='01-宏观结构'><span>0.1 宏观结构</span></h2><hr /><ol start='' ><li><p><span>图画</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7vrq4bf6aj30iq045aad.jpg" alt="image-20221106221840934" style="zoom:100%;" /></li></ul></li><li><p><span>图表</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h804fzmnb5j30jt040t91.jpg" referrerpolicy="no-referrer" alt="image-20221110164103213"></li></ul></li></ol><hr /><h2 id='02-细节设计'><span>0.2 细节设计</span></h2><hr /><h3 id='021-主题词'><span>0.2.1 主题词</span></h3><ol start='' ><li><span>动词：doing</span></li><li><span>名词：n.</span></li><li><span>形容词：being adj.</span></li></ol><h3 id='022-插入语--静态化设计'><span>0.2.2 插入语 + 静态化设计</span></h3><ol start='' ><li><p><span>引例</span></p><ul><li><span>Sb </span><strong><span>do</span></strong><span> sth  –&gt;  Sb </span><strong><span>try to do</span></strong><span> sth</span></li><li><span>Sth </span><strong><span>be</span></strong><span>…  –&gt;  Sth </span><strong><span>tend to</span></strong><span> be…</span></li><li><span>Sb </span><strong><span>intend/intends to do</span></strong><span> sth  –&gt;  Sb </span><strong><span>have/has intention of doing</span></strong><span> sth</span></li><li><span>Sth </span><strong><span>is  very popular</span></strong><span>  –&gt;  Sb </span><strong><span>have/has/receive gain grate popularity</span></strong></li></ul></li><li><p><span>名词化</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7vsfpx94uj30t80et41d.jpg" referrerpolicy="no-referrer" alt="image-20221106224320563"></li></ul></li><li><p><span>介词化</span></p><ol start='' ><li><span>I am </span><strong><span>in good mood</span></strong><span>.  (亮点：be+介词短语)</span></li><li><span>Protecting environment </span><strong><span>tends to be of great/enormous</span></strong><span> importance.</span></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7vso9bbq9j30f10c5wfq.jpg" alt="image-20221106224837973" style="zoom:67%;" /></li></ol></li><li><p><span>插入语</span></p><ol start='' ><li><span>Intelligence, </span><strong><span>it turns out</span></strong><span>, is a high-priced option.</span></li><li><span>…, </span><strong><span>under any circumstance</span></strong><span>,…</span></li><li><span>Protecting environment, </span><strong><span>under any circumstance</span></strong><span>, tends to be</span>
+<strong><span>of great (enormous)</span></strong><span> importance.</span></li><li><span>Setting a good example for kids, </span><strong><span>under any circumstance</span></strong><span>,</span>
+<span>tends to be </span><strong><span>of great (enormous)</span></strong><span> importance.</span></li><li><span>…, </span><strong><span>in fact</span></strong><span> / </span><strong><span>in arge part</span></strong><span>,…</span></li></ol></li></ol><hr /><h3 id='023-it-做形式主语包装'><span>0.2.3 It 做形式主语包装</span></h3><ol start='' ><li><p><span>语料</span></p><ul><li><span>It is generally recognized that…    人们普遍认为</span></li><li><span>It has been found that…    已经发现…</span></li><li><span>It may be said without fear of exaggeration that...  可以毫不夸张地说…</span></li><li><span>It can not be denied that...</span>
+<span>不可否认…</span></li><li><span>It is reported that...</span>
+<span>据报道…</span></li><li><span>It must be admitted that...</span>
+<span>必须承认…</span></li><li><span>It is imagined that...</span>
+<span>人们认为.…</span></li><li><span>It will be seen from this that...    由此可知…</span></li><li><span>It must be pointed out that...</span>
+<span>必须指出…</span></li><li><span>It should be realized that...</span>
+<span>必须认识到</span></li></ul></li><li><p><span>例句</span></p><ul><li><strong><span>It is senerally recognized that</span></strong><span> protecting environment,</span>
+<strong><span>under any circumstance</span></strong><span>, tends to be </span><strong><span>of great (enormous)</span></strong><span> importance.</span></li></ul></li></ol><hr /><h3 id='024-假传圣旨就地取材）'><span>0.2.4 假传圣旨（就地取材）</span></h3><ol start='' ><li><p><span>模板</span></p><ul><li><span>As 人名, 职务&amp;单位, puts it, &quot;观点句&quot;.</span></li></ul></li><li><p><span>例句</span></p><ul><li><span>As Edward Zlotkowski, director of community service at Bentley</span>
+<span>College in Massachusetts, puts it, &quot;It is generally recognized that protecting environment, under any circumstance, tends to be of great/(enormous) importance.&quot;</span></li></ul></li></ol><hr /><h3 id='025-无病呻吟'><span>0.2.5 无病呻吟</span></h3><ol start='' ><li><p><span>no + 核心名词</span></p><ul><li><span>If…</span><strong><span>isn’t</span></strong><span>…, …can’t…  –&gt;  If </span><strong><span>no…is</span></strong><span>…, …can’t…</span></li><li><span>第一个否定和第二个有差异：no - can’t</span></li><li><span>一篇作文里只用一次</span></li></ul></li><li><p><span>否定副词</span></p><ul><li><span>never</span></li><li><span>seldom</span></li><li><span>rarely</span></li><li><span>hardly</span></li><li><span>scarcely</span></li></ul></li><li><p><span>fail to do sth</span></p></li><li><p><span>例句</span></p><ul><li><span>…He may also need money to construct irrigation vessels and improve his farm in other ways. </span><strong><span>If no</span></strong><span> surplus </span><strong><span>is</span></strong><span> available, a farmer </span><strong><span>can’t</span></strong><span> be self-satisfied...</span></li></ul></li></ol><hr /><h3 id='026-非灵主语inanimate-subject物称主语'><span>0.2.6 非灵主语(inanimate subject)/物称主语</span></h3><ul><li><p><span>The reports </span><strong><span>came into</span></strong><span> London Zoo.</span></p></li><li><p><span>The news </span><strong><span>came to</span></strong><span> me.</span></p></li><li><p><span>An idea </span><strong><span>came / flashed into</span></strong><span> my mind.</span></p></li><li><p><span>He </span><strong><span>lost</span></strong><span> his confidence.</span>
+<span>–&gt;  Confidence </span><strong><span>deserted</span></strong><span> him.</span></p></li><li><p><span>I </span><strong><span>couldn’t sleep</span></strong><span> that night.</span>
+<span>–&gt;  That right sleep </span><strong><span>eluded</span></strong><span> me.</span></p></li><li><p><span>Over past several years, people </span><strong><span>have witnessed</span></strong><span> a social phenomenon that...  –&gt;</span></p><p><span>The past several years </span><strong><span>have witnessed</span></strong><span> a social phenomenon that...</span></p></li></ul><hr /><h3 id='027-调查'><span>0.2.7 调查</span></h3><ul><li><p><span>A recent Internet questionnaire of </span><strong><span>the relevant department</span></strong><span> indicates that</span>
+<span>approximately 83.2% of the respondents hold the same view.</span></p></li><li><p><span>A recent Internet questionnaire of </span><strong><span>the Chinese Academy of Social Sciences</span></strong>
+<span>indicates that approximately 83.2% of the respondents hold the same view.</span></p></li><li><p><span>机构</span></p><ul><li><span>the relevant department</span></li><li><span>中国社科院 the</span>
+<span>Chinese Academy of Social Sciences</span></li><li><span>全球权威官方</span></li><li><span>民间机构</span></li><li><span>全球著名大学</span></li><li><span>全球著名或权威杂志</span></li></ul></li></ul><hr /><h1 id='1-图画'><span>1 图画</span></h1><hr /><h2 id='11-图画理论'><span>1.1 图画理论</span></h2><hr /><h3 id='111-第一段描述图画'><span>1.1.1 第一段：描述图画</span></h3><hr /><ol start='' ><li><p><span>引出主题</span></p><ol start='' ><li><p><span>首句</span></p><ol start='' ><li><p><span>The animated cartoon reminds its readers about the significance of 主题词…</span></p><p><span>看到这副生动的漫画</span>
+<span>人们想到了...的重要性</span></p></li><li><p><span>Nothing can get us denying that 主题词, under any circumstance, tends to be of great (enormous) importance.</span></p><p><span>不可否认，无论在任何情况下，…往往都很重要</span></p></li><li><p><span>It goes without saying that 主题词，under any circumstance, tends</span>
+<span>to be of great (enormous) importance.</span></p><p><span>不言而喻，无论在任何情况下，.…往往都很重要。</span></p></li><li><p><span>Nowadays, the topic of 主题词 has become a matter of great concern</span>
+<span>for the general public in China.</span></p><p><span>如今，…的话题已经成为中国老百姓所关心的事情。</span></p></li><li><p><span>Glanging at the picture, we cannot help being shocked by what characters in</span>
+<span>the scene did.</span></p><p><span>看到这幅漫画，我们不禁惊讶于场景中人物所做的事。（负面话题）</span></p></li></ol><hr /></li><li><p><span>第二句</span></p><ol start='' ><li><p><span>非定法</span></p><ul><li><p><span>As is vividly </span><strong><span>portrayed</span></strong><span> in the </span><strong><span>ridiculous</span></strong><span> </span><strong><span>picture</span></strong></p></li><li><p><span>正如这幅</span><strong><span>可笑的</span></strong><span>图画所栩栩如生地</span><strong><span>揭示的</span></strong><span>那样</span></p><ul><li><span>描绘    portrayed / described</span></li><li><span>揭示    revealed / disclose / shown</span></li><li><span>说明    illustrated</span></li><li><span>可笑的    ridiculous</span></li><li><span>有趣的    interesting </span></li><li><span>搞笑的    funny</span></li><li><span>发人深思的    thought-provoking</span></li><li><span>夺人眼球的    eye-catching</span></li><li><span>图画    picture / cartoon / photo / drawing / graph</span></li></ul></li></ul></li><li><p><span>宾语从句法</span></p><ul><li><span>The ridiculous picture vividly portrays </span><strong><span>that</span></strong><span>...</span></li></ul></li><li><p><span>形式主语</span></p><ul><li><strong><span>It is</span></strong><span> vividly portrayed in the ridiculous pictures </span><strong><span>that</span></strong><span>…</span></li></ul></li><li><p><span>两幅图片连词</span></p><ul><li><span>adv.类似地    similarly, likewise</span></li><li><span>adv.而且; 此外    furthermore, moreover</span></li><li><span>转折    however, by contrast, unfortunately, yet</span></li></ul></li></ol></li></ol></li></ol><hr /><ol start='2' ><li><p><span>描述图画</span></p><ol start='' ><li><p><span>旅游扔垃圾</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7wujq1m0yj308m06zdg2.jpg" referrerpolicy="no-referrer" alt="image-20221107203834835"></li><li><span>From the picture, we can see </span><strong><span>that</span></strong><span> two tourists </span><strong><span>sitting</span></strong><span> on a boat, are throwing </span><u><span>rubbish</span></u><span> into the lake </span><strong><span>full of</span></strong><span> </span><u><span>litter and waste</span></u><span>.</span></li></ul><hr /></li><li><p><span>家长做榜样</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7wuislloij30dh0613yw.jpg" referrerpolicy="no-referrer" alt="image-20221107204103975"></li><li><span>As is vividly shown in the left picture, a father </span><strong><span>watching TV</span></strong><span> is asking his son to study hard</span><strong><span>, but</span></strong><span> both of the father and the son are studying together in the right picture.</span></li><li><strong><span>While</span></strong><span> watching TV in the left picture, a father </span><strong><span>is asking</span></strong><span> his son to study hard</span><strong><span>; however,</span></strong><span> both the father and the son are studying together in the right picture. </span></li></ul><hr /></li><li><p><span>文化火锅</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7wvixo0lnj307e06aglo.jpg" referrerpolicy="no-referrer" alt="image-20221107211548413"></li><li><span>As is symbolically depicted in the picture, there is a hot pot </span><strong><span>in which</span></strong><span> there are </span><u><span>some cultural elements</span></u><span> </span><strong><span>including</span></strong><span> </span><u><span>western cultural ones</span></u><span> and </span><u><span>Chinese ones</span></u><span>.</span></li></ul></li></ol><hr /></li><li><p><span>评价图片</span></p><ol start='' ><li><p><span>首句引出段落</span></p><ul><li><p><span>这幅图作一看好像很简单，但只有具有洞察力的人才能透过表面看穿其内在的含义</span></p><ul><li><span>The cartoon, at the first glimpse, seems to be simple, but only a penetrating sight can pierce through its superficial meaning.</span></li></ul></li><li><p><span>尽管图片简单，但其内涵意义很深刻</span></p><ul><li><span>Simple as the picture looks, its implicit meaning should be epoch-making.</span></li></ul></li><li><p><span>尽管图片简单，但其引伸义却发人深思</span></p><ul><li><span>Simple as the picture is, its intended meaning is extremely thought-provoking. </span></li></ul></li><li><p><span>这幅画如此简单以于无需解释，但是只有明智的读者才能抓住其本质。</span></p><ul><li><span>The drawing is so simple that it deserves little explanation, but only sensible reader</span>
+<span>can capture its essence.</span></li></ul></li></ul></li><li><p><span>重申主题 + 分析影响</span></p><ul><li><p><span>考虑到的重要性 / 严重性，有必要指出其背后意义深远的影响</span></p><ul><li><span>Considering the significance / seriousness of 主题词, it is necessary to point out the far-reaching consequences behind it.</span></li></ul></li><li><p><span>引出影响的连词</span></p><ul><li><span>First of all,…in addition,… last but not least,…</span></li><li><span>First,…what&#39;s more,…additionally,…</span></li><li><span>In the first place,…in the second place,…</span></li><li><span>Firstly,…moreover,…in addition,…</span></li><li><span>For one thing,…for anther,...</span></li><li><span>On the one hand...,on the other hand,...</span></li><li><span>First and foremost,…,Plus,…</span></li></ul></li><li><p><span>四大万能理由</span></p><ol start='' ><li><p><span>主题</span></p><ul><li><p><span>成长; 成功; 发展（个人话题）</span></p><ul><li><span>the growth</span></li><li><span>success</span></li><li><span>prospect of individual</span></li></ul></li><li><p><span>社会话题</span></p><ul><li><p><span>as a result of multiple causes, inevitably brings tremendous benefits to the growth of individual…</span></p></li><li><p><span>It exerts a positive influence on the development of economy</span></p></li><li><p><span>the development of economy / society / culture / legal system / </span><strong><span>environment</span></strong></p><ul><li><span>家庭环境：family environment</span></li><li><span>校园环境：school environment</span></li><li><span>学术环境：academic environment</span></li><li><span>文化环境：cultural environment</span></li></ul></li></ul></li><li><p><span>知识</span></p><ul><li><span>acquire adequate knowledge</span></li></ul></li><li><p><span>经历</span></p><ul><li><span>acquire </span><u><span>useful / extensive</span></u><span> experience</span></li></ul></li><li><p><span>机会</span></p><ul><li><span>acquire golden opportunity</span></li></ul></li><li><p><span>效率</span></p><ul><li><u><span>enhance / improve / develop / increase</span></u><span> our </span><u><span>work / study</span></u><span> efficiency</span></li></ul></li><li><p><span>便利    </span></p><ul><li><u><span>give / offer</span></u><span> </span><u><span>great / tremendous</span></u><span> convenience in our life</span></li></ul></li><li><p><span>时间    </span></p><ul><li><p><u><span>waste</span></u><span> our precious time and money</span></p></li><li><p><u><span>a totol waste of</span></u><span> our precious time and money</span></p></li><li><p><span>ady.极大地</span></p><ul><li><span>greatly</span></li><li><span>dramatically</span></li><li><span>significantly</span></li><li><span>considerably</span></li></ul></li></ul></li><li><p><span>压力</span></p><ul><li><span>pressure / stress / stain</span></li><li><u><span>relieves / moderates</span></u><span> a lot of physical and mental stress</span></li><li><u><span>gives rise to / causes</span></u><span> a lot of mental and physical stress.</span></li></ul></li><li><p><span>健康（身体和心理）</span></p><ul><li><span>health</span></li></ul></li></ul></li><li><p><span>句型</span></p><ul><li><p><span>Nothing is more important than 主题词 for 理由</span></p></li><li><p><span>It is conducive to 理由</span></p><p><span>替换：contributes to / be responsible for / advance</span></p></li><li><p><span>It exerts a positive influence on 理由</span></p><ul><li><span>effect / impact</span></li><li><span>深远的 profound /far-reaching </span></li><li><span>不良的 undesirable</span></li></ul></li><li><p><span>主题词, as a result of multiple causes, inevitably </span><u><span>brings /</span>
+<span>offers</span></u><span> tremendous </span><u><span>benefits / harm</span></u><span> to 理由</span></p></li><li><p><span>it enables </span><u><span>us / our</span></u><span> society to acquire 理由</span></p></li></ul></li></ol></li></ul></li></ol></li></ol><hr /><h3 id='112-第二段重申主题'><span>1.1.2 第二段：重申主题</span></h3><ol start='' ><li><span>分析影响</span></li><li><span>第一条影响 + 调查</span></li><li><span>第二条影响 + 名人名言</span></li></ol><hr /><h3 id='113-第三段升华主题'><span>1.1.3 第三段：升华主题</span></h3><hr /><ol start='' ><li><p><span>第一句</span></p><ol start='' ><li><p><span>根据上面的讨论，我们可以得出结论…</span></p><ul><li><span>The above-mentioned can naturally lead us to the conclusion that the great importance should be attached to 主题词</span></li><li><span>From what has been discussed above, we may safely draw the conclusion that…</span></li></ul></li><li><p><span>考虑了所有的这些因素，我们可以得出结论… </span></p><ul><li><span>Taking into account of all these factors, we may reach the conclusion that…</span></li></ul></li><li><p><span>通过上述分析我强调的是…对…具有重要的意义</span></p><ul><li><span>What I want to emphasize by the above analysis is that...is of great significance for...</span></li></ul></li><li><p><span>…的其他优点也不胜枚举</span></p><ul><li><span>The merits above are only a few of what 主题词 can yield.</span></li></ul></li></ol></li><li><p><span>建议措施</span></p><ol start='' ><li><p><span>媒体：宣传 / 报道 / 揭露</span></p><ul><li><p><span>报纸和新闻媒体应该宣传报道它</span></p><ul><li><span>Newspaper and news media should be planned to </span><strong><span>launch propagandas of</span></strong><span> it.</span></li></ul></li><li><p><span>报纸和新闻媒体应该揭露和阻止它</span></p><ul><li><span>Newspaper and news media should be planned to </span><strong><span>feveal and prevent</span></strong><span> it.</span></li></ul></li></ul></li><li><p><span>政府：制定法律 / 采取措施</span></p><ul><li><p><span>政府应该完善法律法规来…</span></p><ul><li><span>The government should </span><strong><span>formulate better laws and regulations</span></strong><span> to do sth.</span></li></ul></li><li><p><span>政府应该实施各项有关…的措施</span></p><ul><li><span>Implementation of the measures of doing 主题词 should be under way.</span></li></ul></li></ul></li><li><p><span>个人：认识到和采取行动</span></p><ul><li><span>Everyone should cultivate a better awareness of it and channel actions.</span></li></ul></li></ol></li><li><p><span>展望未来</span></p><ol start='' ><li><p><span>只有这样，我们才能走向更美好的未来。</span></p><ul><li><span>Only in this way would we be bound for a better future.</span></li></ul></li><li><p><span>只有这样，我们的生活才会变得更加真实和有意义。</span></p><ul><li><span>Only in this way would our lives become more real and meahingful.</span></li><li><span>Only in this way can we do something.</span></li></ul></li></ol></li></ol><hr /><h2 id='12-真题带练'><span>1.2 真题带练</span></h2><hr /><h3 id='2008'><span>2008</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h83iroi5cej308y08qt8s.jpg" alt="image-20221113151322537" style="zoom:80%;" /></li></ul></li></ol><hr /><h3 id='2009'><span>2009</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h83i3lyfgaj309r0ant94.jpg" alt="image-20221113145014492" style="zoom:75%;" /></li></ul></li><li><p><span>范文</span></p><ul><li></li></ul></li></ol><hr /><h3 id='2010英语一）'><span>2010（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e4fbh3pj307e06adfw.jpg" referrerpolicy="no-referrer" alt="image-20221107211548413"></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e0bj5h2j30g405vt9e.jpg" alt="image-20221110221158742" style="zoom:85%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e1ru3voj30gr084q40.jpg" alt="image-20221110221322647" style="zoom:83%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e3btqnqj30gy08emxx.jpg" alt="image-20221110221451754" style="zoom:83%;" /></li></ul></li></ol><hr /><h3 id='2011英语一）'><span>2011（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e5dyc6ij308p070glt.jpg" referrerpolicy="no-referrer" alt="image-20221110221650797"></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e65i3rqj30h006ht9d.jpg" alt="image-20221110221735343" style="zoom:86%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e6xbr9xj30gm0ak3zo.jpg" alt="image-20221110221819219" style="zoom:88%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80e7p6f7yj30hb08f0tg.jpg" alt="image-20221110221904787" style="zoom:85%;" /></li></ul></li></ol><hr /><h3 id='2012英语一）'><span>2012（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82bwh7g63j309207jwep.jpg" alt="image-20221112143011676" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h83i0bv1ivj30lr07laba.jpg" alt="image-20221113144704054" style="zoom:80%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h83i0m1rrnj30np0bfmyz.jpg" alt="image-20221113144721582" style="zoom:73%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h83i11nin0j30n3082js8.jpg" alt="image-20221113144746184" style="zoom:75%;" /></li></ul></li></ol><hr /><h3 id='2013英语一）-1'><span>2013（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efuuyle8j30fw0e33z5.jpg" alt="image-20221123015347051" style="zoom:50%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bkbh2ltj30lh085ta3.jpg" alt="image-20221111173258565" style="zoom:77%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bku1egdj30oz0bndhf.jpg" alt="image-20221111173328406" style="zoom:67%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81bmzfu45j30kw0aidgy.jpg" alt="image-20221111173532097" style="zoom:80%;" /></li></ul></li></ol><hr /><h3 id='2014英语一）'><span>2014（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81az0uszej309y07qaac.jpg" alt="image-20221111171230467" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b01s8x2j30mu09kdhm.jpg" alt="image-20221111171330098" style="zoom:70%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b0mex1lj30qc0c3q51.jpg" alt="image-20221111171402713" style="zoom:62%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81b1s6k43j30o006r0ts.jpg" alt="image-20221111171509148" style="zoom:67%;" /></li></ul></li></ol><hr /><h3 id='2015-英语一）'><span>2015 （英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efw47jcmj30as072mxj.jpg" alt="image-20221123015503451" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a2d8kouj30ms08375l.jpg" alt="image-20221111164107099" style="zoom:72%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a7bg559j30n80dzdi0.jpg" alt="image-20221111164551716" style="zoom:71%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h81a9xpzcsj30om086ab6.jpg" alt="image-20221111164823632" style="zoom:67%;" /></li></ul></li></ol><hr /><h3 id='2016英语一）-1'><span>2016（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80iuethv9j30dh0613yw.jpg" alt="image-20221107204103975" style="zoom:90%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sj2bpjj30mo08awfv.jpg" alt="image-20221111163139833" style="zoom:72%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819sut7m2j30p60a7gnd.jpg" alt="image-20221111163159200" style="zoom:65%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h819temo0tj30oe07z3zm.jpg" alt="image-20221111163230438" style="zoom:67%;" /></li></ul></li></ol><hr /><h3 id='2017英语一）'><span>2017（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80d79arr6j30eg07uaaj.jpg" alt="image-20221110214400237" style="zoom:85%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dv2ed6hj30jb060ab5.jpg" alt="image-20221110220655051" style="zoom:75%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dw6yljzj30im07amya.jpg" alt="image-20221110220800312" style="zoom:77%;" /></li><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h80dy7zmhtj30hf050t99.jpg" alt="image-20221110220957166" style="zoom:82%;" /></li></ul></li></ol><hr /><h1 id='2-书信'><span>2 书信</span></h1><hr /><h3 id='21-书信格式'><span>2.1 书信格式</span></h3><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z4swfvzqj30xg0ghgn5.jpg" alt="image-20221109200751521" style="zoom: 50%;" /></li></ul><hr /><h3 id='22-段落架构'><span>2.2 段落架构</span></h3><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z4thh0o7j30ja09waaq.jpg" alt="image-20221109200827804" style="zoom: 67%;" /></li></ul><hr /><h3 id='221-称呼'><span>2.2.1 称呼</span></h3><ul><li><p><span>Dear + 称呼</span></p></li><li><p><span>不道对方姓名</span></p><ul><li><p><span>机构</span></p><ul><li><span>Dear Sir or Madam,</span></li><li><span>To Whom It May Concern,</span></li></ul></li><li><p><span>团体</span></p><ul><li><span>Dear friends,</span></li><li><span>Dear students,</span></li><li><span>Dear members,</span></li></ul></li></ul></li><li><p><span>知道对姓名</span></p><ul><li><p><span>熟悉人</span></p><ul><li><span>Dear</span>
+<span>Uncle, </span></li><li><span>Dear Jack,</span></li></ul></li><li><p><span>较正式有职位</span></p><ul><li><span>Dear Manager,</span></li><li><span>Dear Manager Jack,</span></li></ul></li><li><p><span>其他情况</span></p><ul><li><span>Dear </span><u><span>Mr. / Ms.</span></u><span> + 姓，</span></li></ul></li></ul></li></ul><hr /><h3 id='222-第一段'><span>2.2.2 第一段</span></h3><hr /><ol start='' ><li><p><span>表明身份</span></p><ol start='' ><li><p><span>学生类</span></p><ul><li><span>a </span><u><span>undergraduate / graduate</span></u><span> majoring in 专业</span></li><li><span>freshman / sophomore / junior / senior</span></li></ul></li><li><p><span>社团和职业类</span></p><ul><li><span>I am a member of </span><strong><span>association</span></strong><span>, (建议信、辞职信等)</span></li><li><span>of club / of team / of staff in your company</span></li></ul></li><li><p><span>其他</span></p><ul><li><span>enthusiast / hobbyist / fan</span></li><li><span>neighbor</span></li><li><span>roommate</span></li><li><span>reader</span></li><li><span>customer</span></li><li><span>classmate</span></li></ul></li><li><p><span>万能身份</span></p><ul><li><span>I am president of students&#39; union.    学生会主席</span></li></ul></li></ol><hr /></li><li><p><span>写信目的</span></p><ol start='' ><li><p><span>万能句式</span></p><ul><li><span>I am writing to </span><strong><span>do sth</span></strong><span> (可抄可写)</span></li><li><span>I am writing the letter to you for the purpose of </span><strong><span>doing sth</span></strong></li></ul></li><li><p><span>标志词</span></p><ul><li><span>建议信：</span><strong><span>suggest</span></strong><span> / advice / suggestion / proposal / opinion / idea</span></li><li><span>感谢信：</span><strong><span>thank</span></strong><span> / thanks / gratitude / appreciation</span></li><li><span>投诉信：</span><strong><span>complain</span></strong><span> / complaint / dissatisfaction / indignation</span></li><li><span>推荐信：</span><strong><span>recommend</span></strong><span> / </span><strong><span>introduce</span></strong><span> / recommendation / introduction</span></li><li><span>邀请信：</span><strong><span>invite</span></strong><span> / cordial invitation</span></li><li><span>道歉信：</span><strong><span>apology</span></strong><span> / apology regret / sorry</span></li><li><span>求职信：</span><strong><span>apply for position</span></strong><span> / qualified candidate / submit</span></u></li><li><span>询问信：</span><strong><span>inquire</span></strong><span> / ask for / wonder / inquiry</span></li><li><span>辞职信：</span><strong><span>resign</span></strong><span> / quit / leave / resignation</span></li><li><span>申请信：</span><strong><span>apply for application</span></strong><span> / want to</span></li><li><span>倡议信：</span><strong><span>advocate</span></strong><span> / On behalf of... / encourage / inspire / call for</span></li><li><span>祝贺信：</span><strong><span>congratulate</span></strong><span> / congratulation</span></li><li><span>拒绝信：</span><strong><span>decline</span></strong><span> / cannot accept / resign</span></li><li><span>慰问信：</span><strong><span>sorry to hear</span></strong></li><li><span>答复函：</span><strong><span>In response to your last letter</span></strong></li></ul></li><li><p><span>建议信</span></p><ol start='' ><li><span>I am writing to express my view suggestion proposal </span><u><span>about / concerning</span></u><span>...</span></li><li><span>It is my pleasure to offer you some </span><u><span>advice on</span></u><span>...</span></li><li><span>You have asked me for my advice </span><u><span>with regard to</span></u><span>…, and I will try to make some</span>
+<span>conducive suggestions.</span></li></ol></li><li><p><span>感谢信</span></p><ul><li><span>I would like to </span><u><span>extend / express / convey</span></u><span> in this letter </span><u><span>my sincere appreciation / my heartfelt thanks / my thanks</span></u><span> to you for…</span></li><li><span>I feel deeply indebted to you, writing these few lines to express my sincere </span><u><span>thanks</span></u><span> for.…</span></li></ul></li><li><p><span>投诉信</span></p><ul><li><span>I am writing to express my </span><u><span>complaint / concern / dissatisfaction / disappointment</span></u><span> about...</span></li><li><span>I am writing the letter to you for the purpose that I am dissatisfied with your.</span></li><li><span>I feel bad / sorry to trouble you but have to draw your attention</span>
+<span>to the </span><u><span>problem / fault of</span></u><span>...that I bought.</span></li></ul></li><li><p><span>推荐信</span></p><ul><li><span>It affords me much pleasure to </span><strong><span>recommend A as B</span></strong><span> to you.</span></li><li><span>With reference to your requirements, I am delighted to </span><strong><span>recommend A as an ideal candidate</span></strong><span>.</span></li><li><span>When it comes to..., I shall, without any hesitation, </span><strong><span>recommend</span></strong><span>…to you.</span></li></ul></li><li><p><span>邀请信</span></p><ul><li><span>We </span><strong><span>hereby</span></strong><span> extend to you our </span><strong><span>cordial invitation</span></strong><span> to…</span></li><li><span>It&#39;s </span><u><span>my pleasure</span></u><span> / </span><u><span>a great honour for me</span></u><span> to invite you to...</span></li><li><span>It would be a good idea if you could participate in...</span></li></ul></li><li><p><span>道歉信</span></p><ul><li><span>I am writing this letter to express </span><u><span>my regret</span></u><span> / </span><u><span>my apology for</span></u><span> / that...</span></li><li><span>Please accept my sincere </span><u><span>apology for</span></u><span> / that...</span></li><li><span>I am indeed very sorry for that...</span></li></ul></li><li><p><span>求职信</span></p><ul><li><span>I am writing this letter to apply for the position that you have advertised in newspaper.</span></li><li><span>Please consider me for your advertised position of...</span></li><li><span>I would like to apply </span><strong><span>for the vacancy</span></strong><span> of....</span></li></ul></li><li><p><span>询问信</span></p><ul><li><span>I am writing to ask if you could possibly provide me with information </span><u><span>regarding / concerning</span></u><span>...</span></li><li><span>I would be most grateful if you could send me information </span><u><span>regarding / concerning</span></u><span>...</span></li><li><span>I would like to know whether you could provide me with information </span><u><span>regarding / concerning</span></u><span>...</span></li></ul></li></ol></li></ol><hr /><h3 id='223-第二段'><span>2.2.3 第二段</span></h3><hr /><ol start='' ><li><p><span>展开主题 </span></p><ul><li><span>Of all the points concerned, I&#39;d like to name </span><u><span>three / two</span></u><span> significant ones as follows.</span></li><li><span>The following statements for </span><u><span>my recommendation / suggestions /</span>
+<span>proposals</span></u><span> are on the top of my list.</span></li><li><span>Pieces of </span><strong><span>relevant details</span></strong><span> are as follows.</span></li><li><strong><span>The items of the 活动</span></strong><span> are as follows.</span></li><li><span>Listed below are </span><strong><span>the basic information</span></strong><span>.</span></li></ul><hr /></li><li><p><span>两点论 / 三点论</span></p><ol start='' ><li><p><span>首先</span></p><ul><li><span>First and the foremost,</span></li><li><span>In the first place,</span></li><li><span>To start with,</span></li><li><span>To begin with,</span></li></ul></li><li><p><span>其次</span></p><ul><li><span>Plus,</span></li><li><span>In the second place,</span></li><li><span>In addition</span>
+<span>Additionally,</span></li><li><span>Furthermore Moreover,</span></li></ul></li><li><p><span>最后</span></p><ul><li><span>Finally,</span></li><li><span>Lastly,</span></li><li><span>More importantly,</span></li><li><span>Last but not the least,</span></li></ul></li></ol><hr /></li><li><p><span>四大万能理由</span></p><ol start='' ><li><p><span>成长 / 成功 / 发展</span></p><ul><li><span>主题词, as a result of multiple causes, inevitably brings tremendous benefits to the</span>
+<span>growth of individual.</span></li></ul></li><li><p><span>知识 / 经历 / 机会</span></p><ul><li><span>It is conducive to acquiring adequate knowledge.</span></li><li><span>It enables us to acquire </span><u><span>useful / extensive</span></u><span> experience.</span></li></ul></li><li><p><span>效率 / 便利 / 时间</span></p><ul><li><span>Nothing is more important than for saving our precious time and money.</span></li><li><span>It exerts a positive influence on efficient </span><u><span>learning / studying</span></u><span>.</span></li><li><span>It is conducive to offering </span><u><span>great / tremendous</span></u><span> convenience in our life.</span></li></ul></li><li><p><span>压力 / 健康 (身体和心理)</span></p><ul><li><span>It is conducive to </span><u><span>relieving / moderating</span></u><span> a lot of physical and mental stress.</span></li><li><span>主题词, as a result of multiple causes, inevitably </span><u><span>brings / offers</span></u><span> tremendous </span><u><span>benefits / harm</span></u><span> to our health both mentally and physically.</span></li></ul></li><li><p><span>万能地点时间</span></p><ul><li><span>the activity will be held at auditorium (on the playground) of</span>
+<span>our university from 9:00 am to 12:00 am on December 10, 2022.</span></li></ul></li></ol></li></ol><hr /><h3 id='224-第三段'><span>2.2.4 第三段</span></h3><hr /><ol start='' ><li><p><span>呼应主题 + 寒暄套话</span></p><ol start='' ><li><p><span>一般</span></p><ul><li><span>Please accept my sincere gratitude to you for reading the content above. If you</span>
+<span>need to know more about it, please contact me.</span></li></ul></li><li><p><span>详细</span></p><ul><li><span>I hope you will find these </span><u><span>suggestions / proposals / recommendations</span></u><span> </span><u><span>helpful / practical / useful</span></u><span>.</span></li><li><span>I hope you will take my suggestion into account.</span></li><li><span>I would </span><strong><span>be ready to</span></strong><span> discuss this matter in further details.</span></li></ul></li><li><p><span>感谢信常用</span></p><ol start='' ><li><span>Please accept my sincere gratitude for your reading the content above.</span></li><li><span>I am most grateful for your generous help.</span></li><li><span>My true gratitude is beyond the word&#39;s deseription.</span></li></ol></li><li><p><span>投诉信常用</span></p><ul><li><span>I trust you will take my complaints seriously and solve it by resorting to measures.</span></li><li><span>I shall be grateful if you could consider my situation and improve it as soon as possible.</span></li><li><span>I would like to have this matter settled by the end of this month.</span></li></ul></li><li><p><span>推荐信常用</span></p><ul><li><span>Owing to the reasons discussed above, I don&#39;t hesitate to recommend </span><u><span>him / her / it</span></u>
+<span>as the right person for your consideration.</span></li><li><span>With these reasons in mind, I am willing to stand by </span><u><span>him / her / it</span></u><span>.</span></li><li><span>To conclude, I would like to restate my strong recommendation for...</span></li></ul></li><li><p><span>邀请信</span></p><ul><li><span>I look forward to seeing you.</span></li><li><span>We should be very please if you could honor us with your presence.</span></li><li><span>I would like to meet you there and please let me know your decision.</span></li></ul></li><li><p><span>道歉信</span></p><ul><li><span>I sincerely hope you can accept my apology.</span></li><li><span>Please accept my sincerest and deepest apology. (for......)</span></li><li><span>I sincerely hope that you will be able to think in my position and accept my apologies.</span></li></ul></li><li><p><span>求职信</span></p><ul><li><span>I shall be much obliged if you accord me an opportunity for an </span><span>	</span><span>interview.</span><span>	</span></li><li><span>Should you give me a trial, I will do my utmost to afford you every satisfaction.</span></li><li><span>I have enclosed my resume that outlines in detail my qualifications and experience.</span></li></ul></li><li><p><span>询问信</span></p><ul><li><span>I am looking forward to your due attention and quick response.</span></li><li><span>I am looking forwards to your prompt attention to this letter.</span></li><li><span>Your prompt attention to this letter would be highly appreciated.</span></li></ul></li></ol><hr /></li><li><p><span>表示感谢（感谢信结尾常用句式）</span></p><ul><li><span>Please accept my sincere gratitude for your reading the content above.</span></li><li><span>I am most grateful for your generous help.</span></li><li><span>My true gratitude is beyond the word&#39;s description.</span></li></ul><hr /></li><li><p><span>期待回信（询问信结尾常用句式）</span></p><ol start='' ><li><span>I am looking forward to your due attention and quick response.</span></li><li><span>I am looking forwards to your prompt attention to this letter.</span></li><li><span>Your prompt attention to this letter would be highly appreciated.</span></li></ol><hr /></li><li><p><span>保持联系 + 祝好</span></p><ul><li><span>Should there be anything I can do for you, please contact me without hesitation.</span></li><li><span>If you need to know more about it,please contact me.</span></li><li><span>Wish you good luck!</span></li><li><span>God bless you!</span></li></ul></li></ol><hr /><h2 id='23-书信模板组合示例'><span>2.3 书信模板组合示例</span></h2><hr /><ol start='' ><li><p><span>建议信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8mgufvzj30l30bl3zc.jpg" alt="image-20221109222004418" style="zoom:67%;" /></li></ul></li><li><p><span>感谢信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8n44yfyj30lg09ldgk.jpg" alt="image-20221109222044178" style="zoom:67%;" /></li></ul></li><li><p><span>投诉信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8o6lmjfj30jn0dcmy4.jpg" alt="image-20221109222145294" style="zoom:67%;" /></li></ul></li><li><p><span>推荐信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z9vpdl69j30k80a60tr.jpg" alt="image-20221109230335141" style="zoom:67%;" /></li></ul></li><li><p><span>邀请信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8rf8o48j30nq0bbaaw.jpg" alt="image-20221109222451704" style="zoom:67%;" /></li></ul></li><li><p><span>道歉信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8sf7lsgj30lp0e30tp.jpg" alt="image-20221109222549598" style="zoom:67%;" /></li></ul></li><li><p><span>求职信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8tshjo0j30mj0cqgmj.jpg" alt="image-20221109222708666" style="zoom:67%;" /></li></ul></li><li><p><span>询问信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8v56omzj30p40ctq42.jpg" alt="image-20221109222826803" style="zoom:67%;" /></li></ul></li><li><p><span>答复信</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7z8w47eomj30mn0bddgz.jpg" alt="image-20221109222922928" style="zoom:67%;" /></li></ul></li><li><p><span>告示</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82ctc7gwbj30k20ckdgl.jpg" alt="image-20221112150147941" style="zoom:67%;" /></li></ul></li></ol><hr /><h2 id='24-书信带练'><span>2.4 书信带练</span></h2><hr /><h3 id='2012英语一）建议信'><span>2012（英语一）建议信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82u6xc35qj30lj0ecq40.jpg" alt="image-20221113010302503" style="zoom:75%;" /></li></ul></li><li><p><span>范文</span></p><ul><li></li></ul></li></ol><hr /><h3 id='2013英语一）-2'><span>2013（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82tdq6aiej30n90ck0tr.jpg" alt="image-20221113003458946" style="zoom:67%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82tp3shmzj30p50eg40c.jpg" alt="image-20221113004555271" style="zoom:65%;" /></li></ul></li></ol><hr /><h3 id='2013英语二）邀请信'><span>2013（英语二）邀请信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82tsunmhnj30mn0bigmg.jpg" alt="image-20221113004930892" style="zoom:73%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82u2h4yvpj30p00e7wgc.jpg" alt="image-20221113005846070" style="zoom:68%;" /></li></ul></li></ol><hr /><h3 id='2014英语一）建议信'><span>2014（英语一）建议信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82gcj4m9hj30jh0b0mxu.jpg" alt="image-20221112170402549" style="zoom:83%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82t1fmsspj30p80fbq4o.jpg" alt="QQ20221113-002219" style="zoom:65%;" /></li></ul></li></ol><hr /><h3 id='2014英语二）询问信'><span>2014（英语二）询问信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h8efxab7osj30i808sdgb.jpg" alt="image-20221123015610594" style="zoom:90%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82tbe8awfj30p40enwg8.jpg" alt="QQ20221113-003206" style="zoom:67%;" /></li></ul></li></ol><hr /><h3 id='2015英语一）推荐信'><span>2015（英语一）推荐信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82f5hqgnrj30kq0c20th.jpg" alt="image-20221112162240879" style="zoom:75%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82fe29qy0j30op0erwg6.jpg" alt="QQ20221112-163004" style="zoom:65%;" /></li></ul></li></ol><hr /><h3 id='2016英语二）答复信'><span>2016（英语二）答复信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82equeytnj30mb0ddaay.jpg" alt="image-20221112160836506" style="zoom:70%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82f3wz97aj30mb0drabf.jpg" alt="QQ20221112-162024" style="zoom:70%;" /></li></ul></li></ol><hr /><h3 id='2017英语一）推荐信'><span>2017（英语一）推荐信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zs90j0ggj30iw07vt9e.jpg" alt="image-20221110093909917" style="zoom:85%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsakqsfoj30nk0c8dhn.jpg" alt="image-20221110094039379" style="zoom:80%;" /><span> </span></li></ul></li></ol><hr /><h3 id='2017英语二）答复信'><span>2017（英语二）答复信</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zscyf6s2j30mf06qjs3.jpg" alt="image-20221110094257074" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zshjdg86j30lk0cxq4l.jpg" alt="image-20221110094720910" style="zoom:80%;" /></li></ul></li></ol><hr /><h1 id='3-告示'><span>3 告示</span></h1><hr /><h2 id='31-告示框架'><span>3.1 告示框架</span></h2><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82ecdex3lj30ix0dmab1.jpg" alt="QQ20221112-155006" style="zoom:70%;" /></li></ul><hr /><h2 id='32-告示带练'><span>3.2 告示带练</span></h2><hr /><h3 id='2015英语二）'><span>2015（英语二）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82fslc9aaj30mq0au0tf.jpg" alt="image-20221112164452744" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82g8hv3dqj30j70b9ab7.jpg" alt="image-20221112170009449" style="zoom:85%;" /></li></ul></li></ol><hr /><h3 id='2016英语一）-2'><span>2016（英语一）</span></h3><ol start='' ><li><p><span>题目</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7zsidjfdej30ju08kaat.jpg" alt="image-20221110094809223" style="zoom:80%;" /></li></ul></li><li><p><span>范文</span></p><ul><li><img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h82eognjg9j30m10dotac.jpg" alt="QQ20221112-160403" style="zoom:71%;" /></li></ul></li></ol><hr /><h1 id='4-通知'><span>4 通知</span></h1><hr /><h1 id='5-纪要'><span>5 纪要</span></h1></div></div>
+</body>
+</html>
