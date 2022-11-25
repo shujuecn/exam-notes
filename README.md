@@ -200,35 +200,36 @@
            * 描绘    portrayed / described
            * 揭示    revealed / disclose / shown
            * 说明    illustrated
-   
+
            * 可笑的    ridiculous
-   
+
            * 有趣的    interesting 
-   
+
            * 搞笑的    funny
-   
+
            * 发人深思的    thought-provoking
-   
+
            * 夺人眼球的    eye-catching
-   
+
            * 图画    picture / cartoon / photo / drawing / graph
-   
+
       2. 宾语从句法
          * The ridiculous picture vividly portrays **that**...
-   
+
       3. 形式主语
-   
+
          * **It is** vividly portrayed in the ridiculous pictures **that**…
-   
+
       4. 两幅图片连词
-   
+
          * adv.类似地    similarly, likewise
-   
+
          * adv.而且; 此外    furthermore, moreover
-   
+
          * 转折    however, by contrast, unfortunately, yet
 
----
+
+   ---
 
 2. 描述图画
 
@@ -256,114 +257,117 @@
 
       * As is symbolically depicted in the picture, there is a hot pot **in which** there are <u>some cultural elements</u> **including** <u>western cultural ones</u> and <u>Chinese ones</u>.
 
+
    ---
 
 3. 评价图片
 
-   1. 首句引出段落
+   * 这幅图作一看好像很简单，但只有具有洞察力的人才能透过表面看穿其内在的含义
+     * The cartoon, at the first glimpse, seems to be simple, but only a penetrating sight can pierce through its superficial meaning.
 
-      * 这幅图作一看好像很简单，但只有具有洞察力的人才能透过表面看穿其内在的含义
-        * The cartoon, at the first glimpse, seems to be simple, but only a penetrating sight can pierce through its superficial meaning.
+   * 尽管图片简单，但其内涵意义很深刻
+     * Simple as the picture looks, its implicit meaning should be epoch-making.
+   * 尽管图片简单，但其引伸义却发人深思
+     * Simple as the picture is, its intended meaning is extremely thought-provoking. 
 
-      * 尽管图片简单，但其内涵意义很深刻
-        * Simple as the picture looks, its implicit meaning should be epoch-making.
-      * 尽管图片简单，但其引伸义却发人深思
-        * Simple as the picture is, its intended meaning is extremely thought-provoking. 
-
-      * 这幅画如此简单以于无需解释，但是只有明智的读者才能抓住其本质。
-        * The drawing is so simple that it deserves little explanation, but only sensible reader
-          can capture its essence.
-
-   2. 重申主题 + 分析影响
-
-      * 考虑到的重要性 / 严重性，有必要指出其背后意义深远的影响
-
-        * Considering the significance / seriousness of 主题词, it is necessary to point out the far-reaching consequences behind it.
-
-      * 引出影响的连词
-
-        * First of all,…in addition,… last but not least,…
-        * First,…what's more,…additionally,…
-        * In the first place,…in the second place,…
-        * Firstly,…moreover,…in addition,…
-        * For one thing,…for anther,...
-        * On the one hand...,on the other hand,...
-        * First and foremost,…,Plus,…
-
-      * 四大万能理由
-
-        1. 主题
-
-           * 成长; 成功; 发展（个人话题）
-
-             * the growth
-             * success
-             * prospect of individual
-
-           * 社会话题
-
-             * as a result of multiple causes, inevitably brings tremendous benefits to the growth of individual…
-             * It exerts a positive influence on the development of economy
-
-             * the development of economy / society / culture / legal system / **environment**
-               * 家庭环境：family environment
-               * 校园环境：school environment
-               * 学术环境：academic environment
-               * 文化环境：cultural environment
-
-           * 知识
-             * acquire adequate knowledge
-           * 经历
-             *  acquire <u>useful / extensive</u> experience
-           * 机会
-             * acquire golden opportunity
-
-           * 效率
-             * <u>enhance / improve / develop / increase</u> our <u>work / study</u> efficiency
-           * 便利    
-             * <u>give / offer</u> <u>great / tremendous</u> convenience in our life
-           * 时间    
-             * <u>waste</u> our precious time and money
-             * <u>a totol waste of</u> our precious time and money
-             * ady.极大地
-               * greatly
-               * dramatically
-               * significantly
-               * considerably
-
-           * 压力
-             * pressure / stress / stain
-             * <u>relieves / moderates</u> a lot of physical and mental stress
-             * <u>gives rise to / causes</u> a lot of mental and physical stress.
-           * 健康（身体和心理）
-             * health
-
-        2. 句型
-
-           * Nothing is more important than 主题词 for 理由
-
-           * It is conducive to 理由
-
-             替换：contributes to / be responsible for / advance
-
-           * It exerts a positive influence on 理由
-
-             * effect / impact
-             * 深远的 profound /far-reaching 
-             * 不良的 undesirable
-
-           * 主题词, as a result of multiple causes, inevitably <u>brings /
-             offers</u> tremendous <u>benefits / harm</u> to 理由
-
-           * it enables <u>us / our</u> society to acquire 理由
+   * 这幅画如此简单以于无需解释，但是只有明智的读者才能抓住其本质。
+     * The drawing is so simple that it deserves little explanation, but only sensible reader
+       can capture its essence.
 
 ---
 
 ### 1.1.2 第二段：重申主题
 
 1. 分析影响
-2. 第一条影响 + 调查
-3. 第二条影响 + 名人名言
+
+   * 考虑到的重要性 / 严重性，有必要指出其背后意义深远的影响
+
+     * Considering the significance / seriousness of 主题词, it is necessary to point out the far-reaching consequences behind it.
+
+2. 引出影响的连词
+
+   * First of all,…in addition,… last but not least,…
+   * First,…what's more,…additionally,…
+   * In the first place,…in the second place,…
+   * Firstly,…moreover,…in addition,…
+   * For one thing,…for anther,...
+   * On the one hand...,on the other hand,...
+   * First and foremost,…,Plus,…
+
+3. 第一条影响 + 调查***【0.2.7 调查】***
+
+4. 第二条影响 + 名人名言***【0.2.4 假传圣旨（就地取材）】***
+
+   ---
+
+5. 常见影响语料
+
+   1. 主题
+
+      * 成长; 成功; 发展（个人话题）
+
+        * the growth
+        * success
+        * prospect of individual
+
+      * 社会话题
+
+        * as a result of multiple causes, inevitably brings tremendous benefits to the growth of individual…
+        * It exerts a positive influence on the development of economy
+
+        * the development of economy / society / culture / legal system / **environment**
+          * 家庭环境：family environment
+          * 校园环境：school environment
+          * 学术环境：academic environment
+          * 文化环境：cultural environment
+
+      * 知识
+        * acquire adequate knowledge
+      * 经历
+        *  acquire <u>useful / extensive</u> experience
+      * 机会
+        * acquire golden opportunity
+
+      * 效率
+        * <u>enhance / improve / develop / increase</u> our <u>work / study</u> efficiency
+      * 便利    
+        * <u>give / offer</u> <u>great / tremendous</u> convenience in our life
+      * 时间    
+        * <u>waste</u> our precious time and money
+        * <u>a totol waste of</u> our precious time and money
+        * ady.极大地
+          * greatly
+          * dramatically
+          * significantly
+          * considerably
+
+      * 压力
+        * pressure / stress / stain
+        * <u>relieves / moderates</u> a lot of physical and mental stress
+        * <u>gives rise to / causes</u> a lot of mental and physical stress.
+      * 健康（身体和心理）
+        * health
+
+      ---
+
+   2. 句型
+
+      * Nothing is more important than 主题词 for 理由
+
+      * It is conducive to 理由
+
+        替换：contributes to / be responsible for / advance
+
+      * It exerts a positive influence on 理由
+
+        * effect / impact
+        * 深远的 profound /far-reaching 
+        * 不良的 undesirable
+
+      * 主题词, as a result of multiple causes, inevitably <u>brings /
+        offers</u> tremendous <u>benefits / harm</u> to 理由
+
+      * it enables <u>us / our</u> society to acquire 理由
 
 ---
 
@@ -381,19 +385,25 @@
       * What I want to emphasize by the above analysis is that...is of great significance for...
    4. …的其他优点也不胜枚举
       * The merits above are only a few of what 主题词 can yield.
+
+   ---
+
 2. 建议措施
    1.  媒体：宣传 / 报道 / 揭露
       * 报纸和新闻媒体应该宣传报道它
         * Newspaper and news media should be planned to **launch propagandas of** it.
       * 报纸和新闻媒体应该揭露和阻止它
         * Newspaper and news media should be planned to **feveal and prevent** it.
-   2. 政府：制定法律 / 采取措施
+   2.  政府：制定法律 / 采取措施
       * 政府应该完善法律法规来…
         * The government should **formulate better laws and regulations** to do sth.
       * 政府应该实施各项有关…的措施
         * Implementation of the measures of doing 主题词 should be under way.
-   3. 个人：认识到和采取行动
+   3.  个人：认识到和采取行动
       * Everyone should cultivate a better awareness of it and channel actions.
+
+   ---
+
 3. 展望未来
    1. 只有这样，我们才能走向更美好的未来。
       * Only in this way would we be bound for a better future.
