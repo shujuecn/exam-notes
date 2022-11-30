@@ -25,7 +25,7 @@ def main():
 
     today = date.today()
 
-    with open("./output/gzs-{}.txt".format(today), "w") as f:
+    with open("./output/{}.txt".format(today), "w") as f:
 
         # 终端
         print("\n【中基题目】")
