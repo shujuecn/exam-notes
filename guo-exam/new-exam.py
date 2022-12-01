@@ -6,7 +6,6 @@ import random
 
 
 def read_question():
-    global zhongji, zhongzhen
 
     zhongji = []
     with open("./source/zhongji.txt", "r") as f:
@@ -18,10 +17,12 @@ def read_question():
         for line in f:
             zhongzhen.append(line.strip())
 
+    return zhongji, zhongzhen
 
-def main():
 
-    read_question()
+def new_exam():
+
+    zhongji, zhongzhen = read_question()
 
     today = date.today()
 
@@ -48,6 +49,18 @@ def main():
 
             # 终端
             print("{}、{}".format(i + 1, question))
+
+
+def main():
+
+    new_exam()
+
+    code = input("\n是否使用本套题目？(y/n): ")
+    if code == "y":
+        print("\n使用成功...\n")
+    elif code == "n":
+        print("\n正在重新生成题目...")
+        main()
 
 
 if __name__ == "__main__":
