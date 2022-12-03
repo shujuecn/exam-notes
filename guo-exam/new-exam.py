@@ -53,13 +53,17 @@ def new_exam():
 
 def main():
 
+    # 生成一套试题
     new_exam()
 
+    # 判断是否需要重新生成
     code = input("\n是否使用本套题目？(y/n): ")
+
     if code == "y":
         print("\n使用成功...\n")
     elif code == "n":
         print("\n正在重新生成题目...")
+        # 重新生成一套试题
         main()
 
 
